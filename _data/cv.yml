@@ -52,23 +52,19 @@ skills:
  - name: Programming Languages
    items:
     - name: Java
+    - name: JavaScript
     - name: C/C++
     - name: Python
     - name: PHP
-    - name: Objective-C
     - name: Scala
     - name: Swift
-    - name: C#
     - name: SQL
-    - name: HTML/CSS
+    - name: HTML
  - name: Web Frameworks
    items:
     - name: Spring Framework
-    - name: Django
-    - name: AngularJS
-    - name: D3
+    - name: Play Framework
     - name: JQuery
-    - name: ExtJS
  - name: Mobile
    items:
     - name: Android
