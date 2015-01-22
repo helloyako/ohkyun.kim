@@ -5,6 +5,3 @@ It's my personal homepage!
 You may need jekyll to build this repository. To make this and publish to server, just type:
 
     make
-
-## Origin
-https://github.com/kswchoo/sungwoo.me
