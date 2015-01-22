@@ -1,4 +1,4 @@
-# sungwoo.me
+# ohkyun.kim
 It's my personal homepage!
 
 ## How to build
@@ -6,4 +6,5 @@ You may need jekyll to build this repository. To make this and publish to server
 
     make
 
-(You'll need my private key! :))
+## Origin
+https://github.com/kswchoo/sungwoo.me
