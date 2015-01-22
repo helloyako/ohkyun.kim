@@ -189,26 +189,7 @@
 
     <hr/>
 
-    <h2>Book Chapter</h2>
-    {% for publication in site.data.cv.books %}
-    <h4 class="cv-publication-title">
-        {% if publication.link %}<a href="{{ publication.link }}">{% endif %}<strong>{{ publication.title }}</strong>{% if publication.link %}</a>{% endif %}
-    </h4>
-    {% if publication.engtitle %}
-    <h5 class="cv-english-title">{{ publication.engtitle }}</h5>
-    {% endif %}
-
-    <p>
-        in <i>{{ publication.publishedin }}</i>, {{ publication.year }}.
-        <br />
-        {% for author in publication.authors %}
-            {% if author.me %}<strong>{% endif %}{{ author.name }}{% if author.me %}</strong>{% endif %}{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    </p>
-    {% endfor %}
-
-    <hr/>
-
+  
     <h2>Skills</h2>
 
     {% for skill in site.data.cv.skills %}
@@ -221,21 +202,7 @@
     {% endfor %}
 
     <hr/>
-
-    <h2>Honors</h2>
-    {% for item in site.data.cv.honors %}
-    <h4>{{ item.year }} {{ item.name }}{% if item.detail %}, <em>{{ item.detail }}</em>{% endif %}</h4>
-    {% endfor %}
-
-    <hr/>
-
-    <h2>Talks</h2>
-    {% for item in site.data.cv.talks %}
-    <h4>{{ item.year }} {{ item.name }} at <em><a href="{{ item.link }}">{{ item.where }}</a></em></h4>
-    {% endfor %}
-
-    <hr/>
-
+ 
     <div class="copyright">
         &copy; Sungwoo Choo. All rights reserved.<br />
         Last updated at {{ site.time | date_to_string }}.
