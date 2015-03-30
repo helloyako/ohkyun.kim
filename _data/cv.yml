@@ -12,13 +12,12 @@ professional:
     title: Software Engineer (Assistant Manager)
     summary:
     projects:
-      - name: PHOLAR Android Application
+      - name: SNS Android Application
         description: >
-          PHOLAR Android Application
+          top secret!
         skills:
           - Android
         links:
-          android: https://play.google.com/store/apps/details?id=com.naver.android.pholar
       - name: Contents Search
         description: >
         skills:
