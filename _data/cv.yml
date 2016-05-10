@@ -12,6 +12,13 @@ professional:
     title: Software Engineer (Assistant Manager)
     summary:
     projects:
+      - name: Android Image Crop
+        description: >
+          Android Image Crop like iOS
+        skills:
+          - Android
+        links:
+          android: https://github.com/naver/android-imagecropview
       - name: PHOLAR Android Application
         description: >
           PHOLAR Android Application
