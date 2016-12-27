@@ -1,7 +1,10 @@
 name: Ohkyun Kim
-home: http://ohkyun.kim
+github: https://github.com/helloyako
 email: helloyako@gmail.com
 vcard: ohkyun.vcf
+birth: Jul/08/1983
+address: Seongnam-si, Gyeonggi-do, Republic of Korea
+image: https://avatars0.githubusercontent.com/u/5343804?v=3&s=460
 
 professional:
   - name: NAVER Corporation
@@ -9,32 +12,57 @@ professional:
     location: Seongnam, Korea
     start: 02/2012
     end: Present
-    title: Software Engineer (Assistant Manager)
+    title: Software Engineer
     summary:
     projects:
       - name: Android Image Crop
+        link: https://github.com/naver/android-imagecropview
         description: >
-          Android Image Crop like iOS
+          Android Image Crop like iOS is open source in github
         skills:
           - Android
         links:
           android: https://github.com/naver/android-imagecropview
-      - name: PHOLAR Android Application
+      - name: PHOLAR Android & iOS Application
         description: >
-          PHOLAR Android Application
+          (2014.11 ~ present) PHOLAR Android & iOS Application
+        parts:
+          - title: camera
+            description: ref. camera App in android open source project (only android) 
+          - title: image edit
+            description: filter, rotaion, crop (only android)
+          - title: gif sticker
+            description: apply gif sticker on one still image (only android)
+          - title: apply git (only android)
+          - title: Build automation
+            description: Deploy app binary file Using Jenkins 
+          - title: minor specs update
         skills:
           - Android
+          - iOS
         links:
           android: https://play.google.com/store/apps/details?id=com.naver.android.pholar
-      - name: Contents Search
-        description: >
+          ios: https://itunes.apple.com/kr/app/pholar-social-photoblog/id981379926?mt=8
+      - name: Contents Search(컨텐츠검색)
+        link: https://m.search.naver.com/search.naver?query=%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC&where=m&sm=mtp_hty
+        description: > 
+          (2012.04 ~ 2014.06) mobile naver search result (ex: 인물정보, 영화정보, 프로야구 등..)
+        parts:
+          - title: mobile contents search
+            description: naver search result of mobile ver.
+          - title: preview for mobile contents search result
+            description: Before change data to service by administrator(not developer), administrator can see preview. Because data change take a long time.
+          - title: CRR(Content Real time Renderer)
+            description: In past, Contents search result made whole html first. User request contents search result, then response made whole html. After CRR haven been developed, User request contents search result, then CRR make html as real time and response completed html.
+          - title: content search result debug page
+            description: Debug page can see request parameter, response data and information for debugging.
         skills:
           - Java
           - Javascript
           - Freemarker
           - Apache
           - Tomcat
-        
+
 education:
   colleges:
     - name: Hansung University
@@ -46,9 +74,9 @@ education:
       adviser: Prof. Kitae, Hwang
     
 publications:
-  - title: 안드로이드 플랫폼에서 H.264 SVC 스트림 비디오 재생기
+  - title: Video Player for H.264 SVC Stream ing in Android Platform (안드로이드 플랫폼에서 H.264 SVC 스트림 비디오 재생기)
     link: http://www.dbpia.co.kr/Journal/ArticleDetail/3033702
-    publishedin: 한국통신학회 종합 학술 발표회 논문집 (추계) 2010, 2010.11, 408-409 (2 pages)
+    publishedin: Proceedings of Symposium of the Korean Institute of communications and Information Sciences(한국통신학회 종합 학술 발표회 논문집 (추계)) 2010, 2010.11, 408-409 (2 pages)
     year: 2012
     authors:
       - name: Ohkyun Kim
