@@ -13,7 +13,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.data.cv.name }}'s CV</title>
+    <title>{{ site.data.cv.name }}</title>
     <meta name="author" content="{{ site.data.cv.name }}"/>
     <meta name="description" content="{{ site.data.cv.name }}'s CV"/>
     <link rel="shortcut icon" href="/favicon.png">
@@ -67,6 +67,11 @@
             margin-bottom: 15px;
         }
 
+		.bio-photo {
+			max-width: 230px;
+			border-radius: 230px;
+		}
+
         @media print {
             /* In case you don't want the boxes on your printout... */
             /*.label {*/
@@ -106,7 +111,7 @@
 	<h2>Profile</h2>
 	<div class="row">
 		<div class="col-xs-4">
-			<img alt="{{ site.data.cv.name }}" class="avatar width-full rounded-2" height="230" src="{{ site.data.cv.image }}" width="230">
+			<img alt="{{ site.data.cv.name }}" class="avatar width-full rounded-2 bio-photo" src="{{ site.data.cv.image }}">
 		</div>
 		<div class="col-xs-8">
 			<div class="row">

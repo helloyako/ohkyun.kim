@@ -23,26 +23,42 @@ professional:
           - Android
         links:
           android: https://github.com/naver/android-imagecropview
-      - name: PHOLAR Android & iOS Application
+      - name: PHOLAR iOS Application
+        link: https://itunes.apple.com/kr/app/pholar-social-photoblog/id981379926?mt=8
         description: >
-          (2014.11 ~ present) PHOLAR Android & iOS Application
+          (2016.06 ~ present) PHOLAR iOS Application
         parts:
-          - title: camera
-            description: ref. camera App in android open source project (only android) 
-          - title: image edit
-            description: filter, rotaion, crop (only android)
-          - title: gif sticker
-            description: apply gif sticker on one still image (only android)
-          - title: apply git (only android)
           - title: Build automation
             description: Deploy app binary file Using Jenkins 
           - title: minor specs update
         skills:
-          - Android
           - iOS
         links:
-          android: https://play.google.com/store/apps/details?id=com.naver.android.pholar
           ios: https://itunes.apple.com/kr/app/pholar-social-photoblog/id981379926?mt=8
+      - name: PHOLAR Android Application
+        link: https://play.google.com/store/apps/details?id=com.naver.android.pholar
+        description: >
+          (2014.11 ~ present) PHOLAR Android Application
+        parts:
+          - title: camera
+            description: ref. camera App in android open source project
+          - title: image edit
+            description: filter, rotaion, crop
+          - title: gif sticker
+            description: apply gif sticker on one still image 
+          - title: apply git 
+          - title: Build automation
+            description: Deploy app binary file Using Jenkins
+          - title: minor specs update
+        skills:
+          - Android
+        links:
+          android: https://play.google.com/store/apps/details?id=com.naver.android.pholar
+      - name: Grafolio Android Application
+        link: http://www.grafolio.com
+        description: (2014.07 ~ 2014.10) I developed grafolio service as android app. But can't release because project is dropped. 
+        skills:
+          - Android
       - name: Contents Search(컨텐츠검색)
         link: https://m.search.naver.com/search.naver?query=%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC&where=m&sm=mtp_hty
         description: > 
