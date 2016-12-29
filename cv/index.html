@@ -72,6 +72,10 @@
 			border-radius: 230px;
 		}
 
+		.part-title {
+			margin-top: 10px;
+		} 
+
         @media print {
             /* In case you don't want the boxes on your printout... */
             /*.label {*/
@@ -185,7 +189,7 @@
 					<dl class="project">
 					{% endif %}
 						{% for part in project.parts %}
-						{% if part.title %}<dt>{{ part.title }}</dt>{% endif %}
+						{% if part.title %}<dt class="part-title">{{ part.title }}</dt>{% endif %}
 						{% if part.description %}<dd>- {{ part.description }}</dd>{% endif %}
 						{% endfor %}
 					{% if project.parts %}
