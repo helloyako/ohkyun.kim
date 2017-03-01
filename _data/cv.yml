@@ -15,6 +15,9 @@ professional:
     title: Software Engineer
     summary:
     projects:
+      - name: Video iOS Application
+        description: >
+          (2017.02 ~ present)
       - name: Android Image Crop
         link: https://github.com/naver/android-imagecropview
         description: >
@@ -26,7 +29,7 @@ professional:
       - name: PHOLAR iOS Application
         link: https://itunes.apple.com/kr/app/pholar-social-photoblog/id981379926?mt=8
         description: >
-          (2016.06 ~ present) PHOLAR iOS Application
+          (2016.06 ~ 2017.01) PHOLAR iOS Application
         parts:
           - title: Build automation
             description: Deploy app binary file Using Jenkins 
@@ -38,7 +41,7 @@ professional:
       - name: PHOLAR Android Application
         link: https://play.google.com/store/apps/details?id=com.naver.android.pholar
         description: >
-          (2014.11 ~ present) PHOLAR Android Application
+          (2014.11 ~ 2017.01) PHOLAR Android Application
         parts:
           - title: camera
             description: ref. camera App in android open source project
