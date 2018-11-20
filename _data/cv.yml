@@ -7,17 +7,28 @@ address: Seongnam-si, Gyeonggi-do, Republic of Korea
 image: https://avatars0.githubusercontent.com/u/5343804?v=3&s=460
 
 professional:
+  - name: LINE Financial Plus
+    start: 11/2018
+    end: Present
+    title: Software Enginner
+    summary: 
+    projects:
   - name: NAVER Corporation
     link: http://www.navercorp.com/
     location: Seongnam, Korea
     start: 02/2012
-    end: Present
+    end: 10/2018
     title: Software Engineer
     summary:
     projects:
-      - name: Video iOS Application
+      - name: WAV iOS Application
+        link: https://itunes.apple.com/app/id1133388943
         description: >
-          (2017.02 ~ present)
+          (2017.02 ~ 2018.10) Discover rising tastemakers in hip-hop and electronic music.
+        skills:
+          - iOS
+        links:
+          ios: https://itunes.apple.com/app/id1133388943
       - name: Android Image Crop
         link: https://github.com/naver/android-imagecropview
         description: >
